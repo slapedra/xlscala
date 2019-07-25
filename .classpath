@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="/_macros/bin"/>
+	<classpathentry kind="lib" path="/aether/bin"/>
+	<classpathentry kind="lib" path="/aether_algebra/bin"/>
+	<classpathentry kind="lib" path="/chronos/bin"/>
+	<classpathentry kind="lib" path="/erebus/bin"/>
+	<classpathentry kind="lib" path="/moirae/bin"/>
+	<classpathentry kind="lib" path="/prometheus/bin"/>
+	<classpathentry kind="lib" path="/tartarus/bin"/>
+	<classpathentry kind="lib" path="C:/swisscanto/quantpm/inprogress/marketlib/lib/tartarus.jar"/>
+	<classpathentry kind="con" path="org.scala-ide.sdt.launching.SCALA_COMPILER_CONTAINER"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

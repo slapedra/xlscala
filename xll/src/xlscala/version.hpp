@@ -1,0 +1,11 @@
+#ifndef VERSION_HPP_PY
+#define VERSION_HPP_PY
+
+#define XLSCALA_PRODUCTNAME						"XLScala 1.0.0"
+#define XLSCALA_STR_PRODUCTVERSION				"1.0.0"
+
+#define XLSCALA_W_PRODUCTNAME					L"XLScala 1.0.0"
+#define XLSCALA_WSTR_PRODUCTVERSION				L"1.0.0"
+
+#endif
+

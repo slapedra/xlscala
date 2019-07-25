@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project default="create_run_jar" name="Create Runnable Jar for Project xlscala">
+    <!--this file was created by Eclipse Runnable JAR Export Wizard-->
+    <!--ANT 1.7 is required                                        -->
+    <target name="create_run_jar">
+        <jar destfile="C:/swisscanto/quantpm/inprogress/marketlib/lib/xlscalaserver.jar" filesetmanifest="mergewithoutmain">
+            <manifest>
+                <attribute name="Main-Class" value="XLScalaServerEntryPoint"/>
+                <attribute name="Class-Path" value="."/>
+            </manifest>
+            <fileset dir="C:/swisscanto/quantpm/inprogress/marketlib/workspaces/marketlib/xlscala/bin"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/swisscanto/quantpm/inprogress/marketlib/lib/aether.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="C:/swisscanto/quantpm/inprogress/marketlib/lib/tartarus.jar"/>
+        	<zipfileset excludes="META-INF/*.SF" src="C:/swisscanto/quantpm/inprogress/marketlib/tools/eclipse/configuration/org.eclipse.osgi/bundles/437/1/.cp/lib/continuations.jar"/>
+        	<zipfileset excludes="META-INF/*.SF" src="C:/swisscanto/quantpm/inprogress/marketlib/tools/eclipse/configuration/org.eclipse.osgi/bundles/437/1/.cp/lib/scala-reflect.jar"/>
+			<zipfileset excludes="META-INF/*.SF" src="C:/swisscanto/quantpm/inprogress/marketlib/tools/eclipse/configuration/org.eclipse.osgi/bundles/437/1/.cp/lib/scala-compiler.jar"/>
+        	<zipfileset excludes="META-INF/*.SF" src="C:/swisscanto/quantpm/inprogress/marketlib/tools/eclipse/configuration/org.eclipse.osgi/bundles/438/1/.cp/lib/scala-actors.jar"/>
+        	<zipfileset excludes="META-INF/*.SF" src="C:/swisscanto/quantpm/inprogress/marketlib/tools/eclipse/configuration/org.eclipse.osgi/bundles/438/1/.cp/lib/scala-library.jar"/>
+        	<zipfileset excludes="META-INF/*.SF" src="C:/swisscanto/quantpm/inprogress/marketlib/tools/eclipse/configuration/org.eclipse.osgi/bundles/438/1/.cp/lib/scala-swing.jar"/>
+        </jar>
+    </target>
+</project>
